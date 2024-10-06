@@ -1,0 +1,7 @@
+services:
+  lua:
+    build: .
+    volumes:
+      - ./input:/app/input:ro
+      - ./output:/app/output
+      - ./lua:/app/lua:ro
